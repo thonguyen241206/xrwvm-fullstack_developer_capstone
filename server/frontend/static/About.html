@@ -1,71 +1,47 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
     <link rel="stylesheet" href="/static/style.css">
-  <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
-    <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
+<body>
+    <div class="container mt-5">
+        <h2>About Us</h2>
+        <p>Welcome to Best Cars dealership, home to the best cars in North America. We deal in sale of domestic and imported cars at reasonable prices.</p>
+        
+        <hr>
+        
+        <h3>Our Team</h3>
+        <div class="row">
+            <!-- Member 1 -->
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300" class="img-fluid rounded" alt="John Doe">
+                <h4>John Doe</h4>
+                <p class="text-muted">Chief Executive Officer</p>
+                <p>John has over 15 years of experience in the automotive industry and drives our company strategic vision.</p>
+                <p>Email: <a href="mailto:johndoe@bestcars.com">johndoe@bestcars.com</a></p>
+            </div>
 
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-        <h1>About Us</h1>
-        Welcome to Best Cars dealership, home to the best cars in North America. We deal in sale of domestic and imported cars at reasonable prices.
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+            <!-- Member 2 -->
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300" class="img-fluid rounded" alt="Jane Smith">
+                <h4>Jane Smith</h4>
+                <p class="text-muted">Sales Director</p>
+                <p>Jane manages our global dealership relations and ensures customers get the absolute best price.</p>
+                <p>Email: <a href="mailto:janesmith@bestcars.com">janesmith@bestcars.com</a></p>
+            </div>
+
+            <!-- Member 3 -->
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300" class="img-fluid rounded" alt="Robert Lee">
+                <h4>Robert Lee</h4>
+                <p class="text-muted">Lead Developer</p>
+                <p>Robert maintains our digital platform, making sure your online car shopping experience is seamless.</p>
+                <p>Email: <a href="mailto:robertlee@bestcars.com">robertlee@bestcars.com</a></p>
+            </div>
         </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
-        </div>
-      </div>
     </div>
-    </div>
-    </div>
-    
-</div>
-
+</body>
 </html>
